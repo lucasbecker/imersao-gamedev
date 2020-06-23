@@ -62,9 +62,9 @@ function preload(){
   imagemCenario = loadImage("img/cenario/floresta.png");
   imagemPersonagem = loadImage("img/personagem/correndo.png");
   imagemInimigo = loadImage("img/inimigos/gotinha.png");
+
   trilha = loadSound("sound/trilha_jogo.mp3");
-  somDoPulo = loadSound("sound/somPulo.mp3");
-  
+  somDoPulo = loadSound("sound/somPulo.mp3"); 
 }
 
 function setup() {
@@ -74,7 +74,8 @@ function setup() {
   inimigo = new Inimigo(matrizInimigo, imagemInimigo, width-52, 52, 52, 104, 104);
   
   frameRate(40);
-  trilha.loop();
+  trilha.play().loop(); // Teste para a musica incial automaticamente
+  //trilha.loop();
 }
 
 function keyPressed(){
@@ -95,7 +96,7 @@ function draw() {
   inimigo.move();
 
   if(personagem.estaColidindo(inimigo)){
-    console.log('colidiu');
+    //console.log('colidiu');
     noLoop();
   }
 
