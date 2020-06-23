@@ -74,8 +74,8 @@ function setup() {
   inimigo = new Inimigo(matrizInimigo, imagemInimigo, width-52, 52, 52, 104, 104);
   
   frameRate(40);
-  trilha.play().loop(); // Teste para a musica incial automaticamente
-  //trilha.loop();
+  trilha.play(); // Teste para a musica incial automaticamente
+  trilha.loop();
 }
 
 function keyPressed(){
