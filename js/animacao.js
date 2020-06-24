@@ -2,10 +2,10 @@ class Animacao{
     constructor(matriz, imagem, x, largura, altura, larguraSprite, alturaSprite){
         this.matriz = matriz;
         this.imagem = imagem;
-        this.x = x;
-        this.y = height - this.altura;
         this.largura = largura;
         this.altura = altura;
+        this.x = x;
+        this.y = height - this.altura;
         this.larguraSprite = larguraSprite;
         this.alturaSprite = alturaSprite;
         

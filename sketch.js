@@ -75,7 +75,7 @@ function setup() {
   personagem = new Personagem(matrizPersonagem, imagemPersonagem, 0, 110, 135, 220, 270);
   inimigo = new Inimigo(matrizInimigo, imagemInimigo, width-52, 52, 52, 104, 104);
 
-  frameRate(30);
+  frameRate(40);
   trilha.loop();
 }
 

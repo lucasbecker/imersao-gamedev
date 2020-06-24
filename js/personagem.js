@@ -10,7 +10,7 @@ class Personagem extends Animacao{
     }
 
     pula(){
-        this.velocidadeDoPulo = -25;
+        this.velocidadeDoPulo = -30;
     }
     
     aplicaGravidade(){
