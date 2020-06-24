@@ -41,3 +41,12 @@ Desafios:
 - [ ] Faça um background com aparência 3D usando duas imagens diferentes, com velocidades diferentes. É o efeito paralaxe. Para isso, você precisa que o da frente tenha transparência
 - [ ] Coloque elementos diferentes em seu jogo: abelhas, borboletas, o que você achar que vai ficar legal!
 - [ ] Faça uma tela de game over mais elaborada, explicando o que aconteceu com a personagem e porque a pessoa perdeu.
+
+## Aula 3: Mais inimigos e pontuação
+Incluindo diferentes tipos de desafios, painel de pontos e tela de fim de jogo.
+
+Desafios:
+- [ ] Configure o jogo para que tenhamos apenas um inimigo aparecendo de cada vez.
+- [ ] A colisão da Hipsta com os inimigos não está muito legal...será que conseguimos melhorar isso?
+- [ ] Crie uma tela inicial para o jogo.
+- [ ] Faça com que moedas apareçam durante o jogo e, conforme a Hipsta as pega, ela acumula mais pontos.
