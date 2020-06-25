@@ -5,7 +5,7 @@ class BotaoGerenciador{
         this.y = y;
         this.botao = createButton(this.texto);
         this.botao.mousePressed(() => this._alteraCena());
-        this.botao.addClass('butao-tela-inicial');
+        this.botao.addClass('botao-tela-inicial');
     }
 
     draw(){
@@ -16,7 +16,7 @@ class BotaoGerenciador{
 
     _alteraCena(){
         this.botao.remove();
-        cenaAtual = jogo;
+        cenaAtual = 'jogo';
     }
 
 
