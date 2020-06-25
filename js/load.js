@@ -1,14 +1,14 @@
 function preload(){
-    imagemCenario = loadImage("imersao-gamedev/img/cenario/floresta.png");
-    imagemGameOver = loadImage("imersao-gamedev/img/assets/game-over.png");
-    imagemPersonagem = loadImage("imersao-gamedev/img/personagem/correndo.png");
-    imagemInimigo = loadImage("imersao-gamedev/img/inimigos/gotinha.png");
-    imagemInimigoGrande = loadImage("imersao-gamedev/img/inimigos/troll.png");
-    imagemInimigoVoador = loadImage("imersao-gamedev/img/inimigos/gotinha-voadora.png");
+    imagemCenario = loadImage("img/cenario/floresta.png");
+    imagemGameOver = loadImage("img/assets/game-over.png");
+    imagemPersonagem = loadImage("img/personagem/correndo.png");
+    imagemInimigo = loadImage("img/inimigos/gotinha.png");
+    imagemInimigoGrande = loadImage("img/inimigos/troll.png");
+    imagemInimigoVoador = loadImage("img/inimigos/gotinha-voadora.png");
   
-    imagemTelaInicial = loadImage("imersao-gamedev/img/assets/telainicial.png");
-    fonteTelaInicial = loadFont("imersao-gamedev/img/assets/fonteTelaInicial.otf");
+    imagemTelaInicial = loadImage("img/assets/telaInicial.png");
+    fonteTelaInicial = loadFont("img/assets/fonteTelaInicial.otf");
 
-    trilha = loadSound("imersao-gamedev/sound/trilha_jogo.mp3");
-    somDoPulo = loadSound("imersao-gamedev/sound/somPulo.mp3"); 
+    trilha = loadSound("sound/trilha_jogo.mp3");
+    somDoPulo = loadSound("sound/somPulo.mp3"); 
   }
