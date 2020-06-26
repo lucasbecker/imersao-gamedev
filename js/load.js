@@ -5,8 +5,8 @@ function preload(){
     imagemInimigo = loadImage("img/inimigos/gotinha.png");
     imagemInimigoGrande = loadImage("img/inimigos/troll.png");
     imagemInimigoVoador = loadImage("img/inimigos/gotinha-voadora.png");
-    imagemTelaInicial = loadImage("img/assets/coracao.png");
     imagemTelaInicial = loadImage("img/assets/telaInicial.png");
+    imagemVida = loadImage("img/assets/coracao.png");
     
     fonteTelaInicial = loadFont("img/assets/fonteTelaInicial.otf");
 
