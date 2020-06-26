@@ -58,3 +58,12 @@ Desafios:
 - [ ] Crie a história do seu jogo através de várias cenas diferentes, por exemplo: qual a missão da Hipsta? O que acontece se ela não chegar onde precisa?
 - [ ] Onde mais você pode colocar estado? Criar uma segunda fase, depois de ter atingido X pontos ou passado N inimigos, é um bom desafio.
 - [ ] Quer ir realmente longe: a passagem de fase poderia ser feita de forma transparente: o novo background começa a aparecer, mas encaixando no background antigo. Entao voce precisa achar imagens de background que se encaixem e que, duas ou tres passadas de tela depois, possa levar a Hipsta de uma floresta a um deserto.
+
+## Aula 5: Vidas e mapa
+Adicionando vidas ao inves de finalizar o jogo apenas com uma colisão e com esse mesmo mecanismo é possivel criar power-ups. Além de centralizar as configurações, como quantiade de vidas, tipos de inimigos e a frequencia deles em um mapa.
+
+Desafios:
+- [ ] Deixar personagem piscando enquanto invencivel 
+- [ ] Adicionar ganho de vidas, ao inves de perder colidindo com o inimigo, ganhar colidindo com um coração.
+- [ ] Crie a história do seu jogo através de várias cenas diferentes, por exemplo: qual a missão da Hipsta? O que acontece se ela não chegar onde precisa?
+- [ ] Submeta seu jogo para participar da competição dos melhores! Teremos uma Live na terça feira.

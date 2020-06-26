@@ -5,6 +5,7 @@ let imagemInimigoGrande;
 let imagemInimigoVoador;
 let imagemGameOver;
 let imagemTelaInicial;
+let imagemVida;
 
 let fonteTelaInicial;
 
@@ -13,6 +14,9 @@ let cenario;
 let trilha;
 let somDoPulo;
 let gameOver;
+let vida;
+
+let fita;
 
 let jogo;
 let telaInicial;

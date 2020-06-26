@@ -10,6 +10,7 @@ class Personagem extends Animacao{
         this.gravidade = 3;
         this.alturaDoPulo = -30;
         this.pulos = 0;
+        this.invecivel = false;
     }
 
     pula(){
@@ -29,6 +30,13 @@ class Personagem extends Animacao{
         }
     }
 
+    tornarInvencivel(){
+        this.invecivel = true;
+        setTimeout( () => {
+            this.invecivel = false;
+        }, 1000);
+    }
+
     estaColidindo(inimigo){
         // Visualizar Caixa de Colisão
         // noFill();
@@ -36,6 +44,11 @@ class Personagem extends Animacao{
         // rect(inimigo.x, inimigo.y, inimigo.largura, inimigo.altura);
         
         // Variavel para aumentar a precisão da caixa de colisão
+
+        if(this.invecivel){
+            return false;
+        }
+
         const precisao = .7;
         const colisao = collideRectRect(
             this.x, 
